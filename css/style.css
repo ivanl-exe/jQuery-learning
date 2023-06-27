@@ -1,0 +1,66 @@
+body {
+    color: #000000;
+}
+
+code {
+    background-color: #F0F0F0;
+}
+
+.imposter {
+    color: #FF0000;
+}
+
+.under-the-sea, .in-the-sky {
+    width: fit-content;
+    color: #FFFFFF;
+}
+
+.under-the-sea {
+    background-color: #1010FF;
+}
+
+.in-the-sky {
+    background-color: #5050FF;
+}
+
+#box {
+    width: 100%;
+    aspect-ratio: 2/1;
+    background-color: #5050FF;
+    text-align: center;
+}
+
+#box p {
+    padding: 10px;
+    margin: auto;
+}
+
+#box input[type="text"] {
+    opacity: 50%;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="image"] {
+    /*width: 100px;*/
+    aspect-ratio: 4/5;
+    /*animation: invert 1s infinite alternate-reverse;*/
+}
+
+@keyframes invert {
+    0% {
+        filter: invert(0%);
+    }
+    100% {
+        filter: invert(100%);
+    }
+}
+
+.cell {
+    width: fit-content;
+    padding: 2px;
+    border: 1px solid black;
+}
